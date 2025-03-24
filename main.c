@@ -5,7 +5,7 @@ int main()
 {
     // The Line below must *NOT* be changed or test will fail!
     srand(1);
-    int dice_toss[100];
+        int dice_toss[100];
     int dice_1 = 0;
     int dice_2 = 0;
     int dice_3 = 0;
