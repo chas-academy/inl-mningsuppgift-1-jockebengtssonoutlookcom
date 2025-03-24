@@ -12,7 +12,7 @@ int main()
     int dice_4 = 0;
     int dice_5 = 0;
     int dice_6 = 0;
-    float sum = 0;
+    int sum = 0;
     for(int i = 0; i < 100; i++){
         dice_toss[i] = (rand() % 6) +1;
         sum += dice_toss[i];
@@ -39,8 +39,8 @@ int main()
             break;
         }
     }
-    printf("\n%d\n%d\n%d\n%d\n%d\n%d\n%.f\n", dice_1, dice_2, dice_3, dice_4, dice_5, dice_6, sum);
-    float average_value = sum / 100;
+    printf("\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n", dice_1, dice_2, dice_3, dice_4, dice_5, dice_6, sum);
+    float average_value = sum / 100.0;
     printf("%.1f", average_value);
 
    
